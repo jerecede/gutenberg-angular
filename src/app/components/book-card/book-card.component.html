@@ -1,0 +1,9 @@
+<a class="book-card">
+    <div class="book-img">
+        <img [src]="this.bookAttribute.formats['image/jpeg']"/>
+    </div>
+    <div class="book-text">
+        <span class="book-title">{{this.bookAttribute.title}}</span>
+        <span class="book-author">{{this.bookAttribute.authors[0]?.name}}</span>
+    </div>
+</a>

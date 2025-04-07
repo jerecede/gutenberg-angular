@@ -1,5 +1,7 @@
-<div>
-    <button (click)="prevPage()">Previous</button>
-    <span></span>
-    <button (click)="nextPage()">Next</button>
+<div class="book-paginator">
+    <span>PAGE {{bookServ.page}}</span>
+    <div class="book-buttons">
+        <button class="button" (click)="prevPage()">Prev</button>
+        <button class="button" (click)="nextPage()">Next</button>
+    </div>
 </div>

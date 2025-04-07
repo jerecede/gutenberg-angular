@@ -1,0 +1,24 @@
+.book-paginator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.book-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.button{
+    background-color: rgb(182, 182, 182);
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.button:hover{
+    background-color: rgb(196, 196, 196);
+    transform: scale(1.05);
+}

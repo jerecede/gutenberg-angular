@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { BookPaginatorComponent } from './components/book-paginator/book-paginator.component';
 import { BookListComponent } from './components/book-list/book-list.component';
+import { BookHeaderComponent } from "./components/book-header/book-header.component";
+import { BookFooterComponent } from "./components/book-footer/book-footer.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,BookPaginatorComponent,BookListComponent],
+  imports: [RouterOutlet, BookListComponent, BookHeaderComponent, BookFooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

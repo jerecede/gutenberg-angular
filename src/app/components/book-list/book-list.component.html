@@ -1,4 +1,3 @@
-<p>PAGE {{bookServ.page}}</p>
-<p *ngFor="let book of books">
-    {{book.title}}
-</p>
+<div class="book-list">
+    <app-book-card *ngFor="let book of books" [bookAttribute]="book"></app-book-card>
+</div>
