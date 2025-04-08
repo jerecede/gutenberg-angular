@@ -12,6 +12,7 @@ export class BookPaginatorComponent {
   bookServ = inject(BookService);
 
   nextPage(){
+    // window.location.href.split('?')[0] += '?page=' + this.bookServ.page;
     this.bookServ.next()
   }
   
